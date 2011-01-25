@@ -1,0 +1,12 @@
+ogr2osm light
+
+ python ogr2osm-l.py [filename]
+
+ This is a stripped version of ogr2osm. It currently simply takes a filename and converts it to a .osm file containing nodes and ways
+
+ Why this simplicity?
+ Because it is almost impossible to maintain the complexity and validate stuff anywhere else then in one of the (pretty well maintained) OSM-editors
+ The goal of this script is to create spaghetti that can be imported into one of the editors where it can be further processed and checked.
+ Thanks to Iván Sánchez Ortega, 2009 <ivan@sanchezortega.es> for the initial stuff! Your beer will be waiting on the first time we meet.
+
+ requirements: osgeo/ogr python bindings
